@@ -1,0 +1,25 @@
+{
+  "test_accuracy": 0.9852,
+  "test_loss": 0.04885673150420189,
+  "precision_macro": 0.9850706725876659,
+  "recall_macro": 0.9854134979820423,
+  "f1_macro": 0.985149284662666,
+  "precision_weighted": 0.9853790218282177,
+  "recall_weighted": 0.9852,
+  "f1_weighted": 0.9851981235096757,
+  "dataset": "mnist",
+  "num_classes": 10,
+  "num_test_samples": 10000,
+  "input_shape": [
+    28,
+    28,
+    1
+  ],
+  "num_train_samples": 54000,
+  "num_validation_samples": 6000,
+  "epochs_run": 3,
+  "training_minutes": 7.48,
+  "parameters": 944042,
+  "augmentation": true,
+  "seed": 42
+}

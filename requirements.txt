@@ -1,0 +1,15 @@
+# Tested target: Python 3.11 / 3.12
+tensorflow==2.16.2
+numpy==1.26.4
+pandas==2.2.2
+opencv-python-headless==4.10.0.84
+pillow==10.4.0
+matplotlib==3.9.2
+scikit-learn==1.5.2
+streamlit==1.38.0
+# Drawing canvas: 0.9.3 breaks on Streamlit >= 1.39, so Streamlit is pinned above.
+streamlit-drawable-canvas==0.9.3
+# EMNIST downloader (fetches the official NIST archive). Optional if you place the CSV files in data/.
+emnist==0.0
+# Only needed to run the notebooks
+jupyter==1.1.1
